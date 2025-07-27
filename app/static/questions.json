@@ -1,0 +1,22 @@
+[
+  {
+    "id": "q1_sales_bonus",
+    "topic": "Formulas & Functions",
+    "difficulty": "Intermediate",
+    "task_description": "We need to calculate a 5% sales bonus for employees in the 'Sales' department. Please add a new column named 'Bonus' to the table. For employees in the 'Sales' department, this column should contain 5% of their 'Salary'. For all other employees, it should be 0.",
+    "starting_data": {
+      "EmployeeID": ["E101", "E102", "E103", "E104"],
+      "Name": ["Alice", "Bob", "Charlie", "David"],
+      "Department": ["HR", "Sales", "Engineering", "Sales"],
+      "Salary": [60000, 75000, 90000, 82000]
+    },
+    "solution_data": {
+      "EmployeeID": ["E101", "E102", "E103", "E104"],
+      "Name": ["Alice", "Bob", "Charlie", "David"],
+      "Department": ["HR", "Sales", "Engineering", "Sales"],
+      "Salary": [60000, 75000, 90000, 82000],
+      "Bonus": [0, 3750, 0, 4100]
+    },
+    "evaluation_criteria": "The candidate must provide the Excel formula used to calculate the 'Bonus' for the first data row (cell E2, assuming data starts in A1). Evaluate the formula based on: 1. Correctness: Does it correctly use an IF statement to check if the Department (C2) is 'Sales'? 2. Calculation: Does it correctly calculate 5% of the Salary (D2) for the true case and return 0 for the false case? 3. Best Practices: Does it use cell references (e.g., C2, D2) instead of hardcoded values?"
+  }
+]
