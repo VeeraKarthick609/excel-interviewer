@@ -1,0 +1,17 @@
+# requirements.txt
+
+# Streamlit Framework
+streamlit
+
+# Data Handling
+pandas
+
+# Database Connectors
+redis
+psycopg2-binary
+
+# AI & LangChain
+langchain
+langchain-community
+langchain-core
+pydantic
